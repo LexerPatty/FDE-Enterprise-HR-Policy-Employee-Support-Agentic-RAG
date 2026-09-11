@@ -1,0 +1,50 @@
+Normal RAG :
+AI searches for information and answers.
+
+Agentic RAG :
+AI decides how and where to search, can use multiple tools, and can repeat the search until it has enough information to answer.
+
+
+
+Real-life example: Company HR
+
+You ask:
+"What is the leave policy for employees working from home?"
+
+NORMAL RAG...........:
+
+Question
+   ↓
+Search HR documents
+   ↓
+Retrieve relevant chunks
+   ↓
+LLM
+   ↓
+Answer
+
+
+AGENTIC RAG......  :
+
+Question
+   ↓
+AI Agent
+   ↓
+"Which documents do I need?"
+   ↓
+Search HR policy
+   ↓
+Didn't find enough information
+   ↓
+Search remote-work policy
+   ↓
+Compare both documents
+   ↓
+Maybe search employee handbook
+   ↓
+LLM
+   ↓
+Final answer
+
+
+Agentic RAG = RAG + an AI agent that controls the retrieval process.

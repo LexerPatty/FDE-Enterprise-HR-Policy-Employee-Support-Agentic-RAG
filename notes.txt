@@ -1,0 +1,47 @@
+Core Responsibilities 
+What does an FDE actually do day to day?
+
+1. Understand requirements 
+Meet users, ask questions, map workflows, identify pain points. 
+
+2. Prototype quickly
+Build a small working version to validate the idea.
+
+3. Engineer the solution 
+Write production code, APIs, data pipelines, Al/RAG/agents, integrations. 
+
+4. Deploy & integrate
+Connect customer systems, cloud, auth, databases and monitoring.
+
+5. Troubleshoot 
+Debug failures, latency, bad outputs, data issues and edge cases.
+
+6. Iterate with users
+Collect feedback, measure impact and improve the solution
+
+
+
+
+
+A Simple Real-World Example
+A support company has 100,000 internal documents. Employees cannot find answers quickly.
+
+Problem
+Support agents spend too much time searching manuals, tickets and policies.
+
+FDE Discovery
+Talk to support teams.Understand data sources,access rules, expected answers and success metrics.
+
+Build
+Create an Al assistant with RAG, document ingestion, search, citations and guardrails.
+
+Deploy
+Connect SSO + internal systems, deploy on cloud, add monitoring and user feedback.
+
+Win
+Faster answers Less manual search Better support
+
+
+
+
+
